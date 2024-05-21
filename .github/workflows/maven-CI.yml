@@ -27,6 +27,6 @@ jobs:
         uses: actions/upload-artifact@v3
         with:
           name: mvn-hello-world-${{ steps.getVersion.outputs.version }}.zip
-          path: staging  
+          path: staging
 
 
