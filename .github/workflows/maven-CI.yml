@@ -2,7 +2,7 @@ name: maven-CI.yml
 on:
   push:
     branches:
-      - Development
+      - development
 
 jobs:
   CI_TEST_AND_BUILD:
